@@ -1,7 +1,7 @@
 <article class=" bg-Light-Grayish-Blue w-[326px] h-[216px]  mb-4 rounded-[5px] mx-auto overflow-hidden text-center hover:brightness-95 cursor-pointer hover:dark:brightness-125 dark:bg-Dark-Desaturated-Blue">
   <div  [ngClass]="colorNetwork[cardHijo.network]" class=" h-[4px] mb-8"></div>
   <div class="flex items-center place-content-center gap-2 ">
-  <img src="/assets/images/{{typeOfNetwork[cardHijo.network]}}.svg" alt={{cardHijo.network}}>
+  <img src="assets/images/{{typeOfNetwork[cardHijo.network]}}.svg" alt={{cardHijo.network}}>
   <p class="text-xs text-Dark-Grayish-Blue-Text font-bold">{{cardHijo.user}}</p>
  </div>
  <p class="text-[56px] font-bold text-Very-Dark-Blue dark:text-white">{{cardHijo.audience | numberFormat}}</p>
