@@ -1,0 +1,9 @@
+
+<section >
+  <h2 class="text-2xl font-bold mb-[27px] text-Dark-Grayish-Blue-Text ml-8">OverView Today</h2>
+
+  <div class="flex flex-wrap gap-[30px] place-content-center ">
+    <app-over-view-today-card  *ngFor="let card of cards" [cardHijoToday]="card"></app-over-view-today-card>
+  </div>
+
+</section>

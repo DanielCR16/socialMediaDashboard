@@ -1,0 +1,16 @@
+<header class="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue  h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[480px] xl:mb-[200px] ">
+  <h1 class="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-2xl font-bold mb-1">Social Media Dashboard</h1>
+  <p class="text-Dark-Grayish-Blue  dark:text-Desaturated-Blue-Text font-bold mb-6">Total Followers: 24,0005</p>
+
+  <hr class="bg-black font-bold h-[2px] mb-[19px]" />
+
+  <div class="flex  justify-between ">
+    <p class="text-Dark-Grayish-Blue dark:text-Desaturated-Blue-Text font-bold">Dark Mode</p>
+    <label for="darkMode" class="border bg-Toggle2  w-12 h-6 rounded-full cursor-pointer p-[3px] relative overflow-hidden">
+      <input (click)="handleClick()" id="darkMode" class="sr-only peer" type="checkbox">
+      <div class=" w-full h-full peer-checked:bg-Toggle-gradient absolute top-0 left-0 "></div>
+      <div class="w-[18px] h-[18px] bg-Light-Grayish-Blue rounded-full peer-checked:translate-x-[24px] transition-all"></div>
+    </label>
+
+  </div>
+</header>
